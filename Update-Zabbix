@@ -1,0 +1,42 @@
+# Codigos-Lab-Tatu
+# Update Servidor Zabbix
+
+#Gloria
+#Versão-Servidor Zabbix 3.4.5
+#Versão O.S Servidor Debian 7
+#Versão Banco mysql 5.5.38
+
+#TEAUPERI
+#Versão-Proxy Zabbix 3.4.15
+#Versão O.S Proxy Debian 9
+#Versão Banco mysql 5.5.62
+
+#Sapucai
+#Versão-Proxy Zabbix 3.4.15
+#Versão O.S Proxy Debian 7
+#Versão Banco mysql 5.5.60
+
+#AMDIGITAL
+#Versão-Proxy Zabbix 
+#Versão O.S Proxy 
+#Versão Banco mysql 
+
+#DMZ
+#Versão-Proxy Zabbix 3.4.5
+#Versão O.S Proxy Debian 4.6
+#Versão Banco mysql 5.1.73
+
+#METROMAO
+#Versão-Proxy Zabbix 4.3.5 
+#Versão O.S Proxy Debian 6
+#Versão Banco mysql 5.1.73
+
+#TVLAR
+#Versão-Proxy Zabbix 
+#Versão O.S Proxy 
+#Versão Banco mysql
+
+
+
+
+
