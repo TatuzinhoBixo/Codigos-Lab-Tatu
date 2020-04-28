@@ -50,4 +50,7 @@ grafana-cli plugins install alexanderzobnin-zabbix-app
 systemctl restart grafana-serve
 
 #configurar url do plugin e incluir a senha
-http://<ip>/api_jsonrpc.php
+#capo URL: http://<ip>/api_jsonrpc.php
+#Access: Browser
+#Adicionar o login e senha do zabbix
+#Escolher a versão do Zabbix
