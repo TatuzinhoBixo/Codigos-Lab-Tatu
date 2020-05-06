@@ -54,3 +54,33 @@ systemctl restart grafana-serve
 #Access: Browser
 #Adicionar o login e senha do zabbix
 #Escolher a versão do Zabbix
+
+#Instalação do Zabbix na função de proxy
+
+#Baixar o repositório no site da Zabbix
+rpm -Uvh https://repo.zabbix.com/zabbix/4.4/rhel/8/x86_64/zabbix-release-4.4-1.el8.noarch.rpm
+
+#Instalar e configurar o Mysql, nas mesmas configurações sugeridas na instalação do Zabbix principal
+
+#Importar as tabelas mysql
+zcat /usr/share/doc/zabbix-proxy-mysql*/schema.sql.gz | mysql -uzabbix -p zabbix
+
+#Configuração de arquivos
+#Edit file /etc/zabbix/zabbix_proxy.conf
+Server=<ip do zabbix principal>
+Hostname=<nome do servidor>
+DBName=zabbix
+DBUser=zabbix
+DBPassword=password
+
+#Edit file /etc/zabbix/zabbix_agentd.conf
+Server=<ip servidor>
+Hostname=<noem>
+
+#cadastrar o zabbix-proxy na pagina do zabbix em "adminsitração / proxy"
+
+
+
+
+
+
