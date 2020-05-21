@@ -1,0 +1,40 @@
+#Letras em MAIUSCULO são nomes que podem ser personalizados#Criar o volume no disco
+pvcreate VOLUME /dev/sd* #nome disco virtual e o nome do dev
+
+#Criar o grupo de volume
+vgcreate GRVOLUME /dev/sd*  #nome do grupo e o nome do dev
+
+#Criar o volume lógico
+lvcreate -L 5GB -n FILES GRVOLUME #criar 5GB volume logico com o nome FILES e informar o nome do grupo
+
+#Formatar o disco lógico
+mkfs.ext4 LVPATH #Formatar o disco em ext4
+
+#Montar o volume
+mount "LVPAHT" /mnt/PASTA #Montar a partição lvm
+
+##############################
+
+#Aumentar o volume após um novo hd
+
+pvcreate /dev/sd* #Adicionar o disco virtual
+
+#Atribuir o disco criado
+vgextend GRVLOUME /dev/sd*  # Adicionar o disco no grupo
+
+#Desmontar a partição
+umount /mnt/PASTA
+
+#Aumentar o disco logico
+lvextend -L 10GB LVPATH # Aumentar a partição para 10GB
+
+#Procurar por erros
+e2fsck -f LVPATH
+
+#Redimencionar a partição
+resize2fs LVPATH
+
+#Montar a partição novamente
+mount LVPATH /mnt/PASTA
+
+
