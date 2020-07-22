@@ -1,0 +1,24 @@
+# Codigos-Lab-Tatu
+#Instalação Diversas
+
+PATH="/sbin:$PATH"              - Adicionar o fdisk no debian
+#Criar a partição usando o FDISK
+#Formatar a partição mkfs.ext4
+#Montar a partição
+#Cadastra no /etc/fstab           /dev/sdb2  /arquivos  ext3    defaults  1   1
+
+apt install nfs-kernel-server
+#entrar no /etc/exports e adicionar
+/media/nfs		192.168.1.0/24(rw,sync,no_subtree_check)
+
+#Teste em outra VM
+apt install nfs-commo
+
+#Montar o NFS sendo que o destino (/media/share) já deve ter sido criado
+mount -t nfs4 192.168.1.110:/media/nfs /media/share
+
+#opcional para não dar problema caso desconecte na hora do boot, cadastrar no fstab como noauto
+192.168.1.110:/media/nfs	/media/share	nfs4	defaults,user,exec,noauto	0 0
+
+#para montar todas as partições do fstab
+mount -a
