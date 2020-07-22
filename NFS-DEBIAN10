@@ -10,9 +10,10 @@ PATH="/sbin:$PATH"              - Adicionar o fdisk no debian
 apt install nfs-kernel-server
 #entrar no /etc/exports e adicionar
 /media/nfs		192.168.1.0/24(rw,sync,no_subtree_check)
+systemctl restart nfs-kernel-server
 
 #Teste em outra VM
-apt install nfs-commo
+apt install nfs-common
 
 #Montar o NFS sendo que o destino (/media/share) já deve ter sido criado
 mount -t nfs4 192.168.1.110:/media/nfs /media/share
