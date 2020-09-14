@@ -37,6 +37,41 @@
 #Versão Banco mysql
 
 
+#TESTE1
+#UPDATE DO O.S SERVIDOR GLORIA PARA A VERSÃO 8
+#Incluir no /apt/sourcesllist a linha e comentar o resto
+deb http://mirrors.kernel.org/debian jessie main contrib
+apt-get update
+apt-get autoremove
+apt-get celan
+apt-get upgrade
+#Somente atualziar o sistema, outros como php e mysql devem ficar com as configurações originais
+#Reiniciar o servidor
+
+#UPGRADE VERSÃO ZABBIX - #Em algum momento vai ser preciso reinstalar o zabbix, não vai ter o serviço zabbix_server.conf. Possivelmente quando desistalar o mysql
+#Parar os serviços
+service zabbix-server stop
+service zabbix-agent stop
+#Remover o pacote de repositório
+rm -Rf /etc/apt/source.list.d/zabbix.list
+#Instalar o novo repostório
+apt-get update
+#Instalar os pacotes, ver no site da zabbix o comando de acordo com a versão, e configurar as senhas do DB
+#Startar os serviços
+service zabbix-server start
+service zabbix-agent start
+#Pode ser que não suba o serviço, verificar os logs e alterar as configurações de cache do zabbix_server.conf 
+#No caso, o mysql não subiu, logo fiz a reinstalação do mysql
+apt-get remove --purge mysql-server mysql-client mysql-common
+apt-get autoremove
+apt-get autoclean
+apt-get install mysql-server
+#Correção de tabelas
+#Comandos podem durar dias para terminar
+mysqlcheck -c "nome_table" -uzabbix -p
+mysqlcheck -o "nome_table" -uzabbix -p
+
+
 
 
 
