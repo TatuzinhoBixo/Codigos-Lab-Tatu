@@ -71,6 +71,46 @@ apt-get install mysql-server
 mysqlcheck -c "nome_table" -uzabbix -p
 mysqlcheck -o "nome_table" -uzabbix -p
 
+#REINSTALAÇÃO DO ZABBIX-SEVER E AGENTE
+L63 = 5
+L189 = 250
+L198 = 2
+L207 = 5
+L217 = 100
+L227 = 200
+L235 = 50
+L243 = 10
+L251 = 50
+L262 = 2
+L287 = 127.0.0.1
+L295 = 10052
+L303 = 10
+L311 = 10
+L319 = 60
+L327 = 60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
