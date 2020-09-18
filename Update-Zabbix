@@ -71,7 +71,11 @@ apt-get install mysql-server
 mysqlcheck -c "nome_table" -uzabbix -p
 mysqlcheck -o "nome_table" -uzabbix -p
 
+#Alternativo
+mysqlcheck -A -e -u root -p senha_do_banco
+
 #REINSTALAÇÃO DO ZABBIX-SEVER E AGENTE
+#DAS 2X QUE TENTTEI ALTERAR, NÀO DERAM CERTO E TIVE QUE VOLTAR PARA O ORIGINAL
 L63 = 5
 L189 = 250
 L198 = 2
