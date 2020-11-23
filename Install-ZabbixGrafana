@@ -11,11 +11,17 @@ systemctl enable mysqld
 
 #Configuração das tabelas MYSQL
 mysql -uroot -p #não precisa de senha no momento
-create database zabbix character set utf8 collate utf8_bin;
+create database zabbixdb character set utf8 collate utf8_bin;
 create user 'zabbix'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
-grant all on zabbix.* to 'zabbix'@'localhost';
+#outra forma de criar usuário: 
+CREATE USER 'zabbix'@'localhost' IDENTIFIED BY 'minhasenha';
+
+grant all on zabbixdb.* to 'zabbix'@'localhost';
 FLUSH PRIVILEGES
 quit;
+
+#Adicional verificar os usuários do mysql
+SELECT user FROM mysql.user;
 
 #Importar as tabelas Zabbix
 zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p zabbix
