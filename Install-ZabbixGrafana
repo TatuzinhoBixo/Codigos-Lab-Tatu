@@ -6,6 +6,8 @@ dnf install zabbix-server-mysql zabbix-web-mysql zabbix-nginx-conf zabbix-agent
 
 #Instala Mysql
 dnf install mysql mysql-server 
+#No centos7
+yum install mariadb mariadb-server -y; systemctl start mariadb
 systemctl start mysqld # Iniciar o serviço
 systemctl enable mysqld
 
