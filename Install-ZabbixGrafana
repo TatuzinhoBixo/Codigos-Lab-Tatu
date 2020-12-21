@@ -40,9 +40,13 @@ server_name <IP SERVIDOR>;
 systemctl restart zabbix-server zabbix-agent nginx php-fpm
 systemctl enable zabbix-server zabbix-agent nginx php-fpm
 
-#Entrar na página <ip> e configurar o password e acessar a págian
+#Entrar na página <ip> e configurar o password e acessar a págiana
 #login Admin
 #senha zabbix
+
+#MIGRAÇÃO ZABBIX PARA UMA OUTRA VERSÃO
+#Configuração de uma versão superior
+#
 
 #Instalação e configuração do Grafana
 dnf install wget
