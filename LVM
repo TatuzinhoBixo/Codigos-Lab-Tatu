@@ -16,20 +16,24 @@ mount "LVPAHT" /mnt/PASTA #Montar a partição lvm
 ##############################
 
 #Aumentar o volume após um novo hd
+#Formatar o disco com LVM
 
-pvcreate /dev/sd* #Adicionar o disco virtual
+pvcreate /dev/sd** #Adicionar o disco virtual
 
 #Atribuir o disco criado
-vgextend GRVLOUME /dev/sd*  # Adicionar o disco no grupo
+vgextend GRVLOUME /dev/sd**  # Adicionar o disco no grupo
 
 #Desmontar a partição
 umount /mnt/PASTA
 
 #Aumentar o disco logico
 lvextend -L 10GB LVPATH # Aumentar a partição para 10GB
+lvextend -L +10GB LVPATH # Aumentar a partição em 10GB
 
 #Procurar por erros
 e2fsck -f LVPATH
+xfs_growfs LVPATH - caso seja no formato xfs
+#Para saber o formato df -hT
 
 #Redimencionar a partição
 resize2fs LVPATH
