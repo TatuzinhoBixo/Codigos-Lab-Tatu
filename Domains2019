@@ -1,0 +1,6 @@
+Comandos relacionados ao AD
+
+Set-ADForestMode -ForestMode Windows 2016 Forest # Volta para o nível funcional W2016 floresta
+Set-ADDomainMode -DomainMode Windows 2016 Forest # Volta para o nível funcional w2016 dominio
+
+Add-Computer-domainname tatu.coorp -Credential domain\administrator -restart -force
