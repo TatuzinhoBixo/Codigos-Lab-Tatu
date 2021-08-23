@@ -1,0 +1,76 @@
+# Codigos-Lab-Tatu
+Instalação Diversas
+
+Instalar
+wget
+
+Instalar JAVA
+apt install openjdk-11-jdk
+
+Instalar mongodb
+apt install gnupg
+wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | apt-key add -
+
+criar o arquivo:
+/etc/apt/sources.list.d/mongodb-org-5.0.list
+escrever no arquivo criado
+deb http://repo.mongodb.org/apt/debian buster/mongodb-org/5.0 main
+
+apt update
+apt-get install -y mongodb-org
+systemctl start mongod
+systemctl daemon-reload - em caso de error
+systemctl status mongod
+systemctl enable mongod
+
+
+Instalar Elastic Search
+wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+apt-get install apt-transport-https
+
+criar o arquivo
+/etc/apt/sources.list.d/elastic-7.x.list
+escrever no arquivo
+deb https://artifacts.elastic.co/packages/7.x/apt stable main
+
+apt-get install elasticsearch
+systemctl start elasticsearch.service
+systemctl enable elasticsearch.service
+
+
+Instalar GreyLog
+wget https://packages.graylog2.org/repo/packages/graylog-4.0-repository_latest.deb
+dpkg -i graylog-4.0-repository_latest.deb
+apt-get update
+apt-get install graylog-server
+systemctl enable graylog-server
+
+Editar o arquivo /etc/graylog/server/server.conf
+
+pwgen -N 1 -s 96
+password_secret = 
+
+echo -n "Enter Password: " && head -1 </dev/stdin | tr -d '\n' | sha256sum | cut -d " " -f1
+root_password_sha2 =
+
+root_timezone = America/Manaus
+
+http_bind_address = 192.168.1.22:9000
+
+Configuração rsyslog
+*.* @(ip do servidor):514;RSYSLOG_SyslogProtocol23Format
+
+systemctl daemon-reload
+systemctl enable graylog-server.service
+systemctl restart graylog-server.service
+systemctl restart rsyslog
+
+Entrar pela web
+(ip do servidor):9000
+Title
+System/Inputs - Syslog UPD - 
+Global V
+Bind Address
+0.0.0.0
+Port 1514
+Allow overriding date V
