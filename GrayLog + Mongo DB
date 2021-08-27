@@ -1,42 +1,29 @@
-# Codigos-Lab-Tatu
-Instalação Diversas
+Instalar os pacotes
+apt-get install apt-transport-https uuid-runtime pwgen openjdk-11-jdk gnupg wget
 
-Instalar
-wget
-
-Instalar JAVA
-apt install openjdk-11-jdk
-
-Instalar mongodb
-apt install gnupg
+Instalar o MongoDB
 wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | apt-key add -
-
-criar o arquivo:
-/etc/apt/sources.list.d/mongodb-org-5.0.list
-escrever no arquivo criado
-deb http://repo.mongodb.org/apt/debian buster/mongodb-org/5.0 main
-
+echo "deb http://repo.mongodb.org/apt/debian buster/mongodb-org/5.0 main" | tee /etc/apt/sources.list.d/mongodb-org-5.0.list
 apt update
-apt-get install -y mongodb-org
+apt install mongodb-org -y
 systemctl start mongod
-systemctl daemon-reload - em caso de error
 systemctl status mongod
 systemctl enable mongod
 
-
-Instalar Elastic Search
-wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+Instalar ElasticSearch
+wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | apt-key add -
 apt-get install apt-transport-https
+echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | tee /etc/apt/sources.list.d/elastic-7.x.list
+apt-get update && apt-get install elasticsearch
+systemctl start elasticsearch
+systemctl enable elasticsearch
 
-criar o arquivo
-/etc/apt/sources.list.d/elastic-7.x.list
-escrever no arquivo
-deb https://artifacts.elastic.co/packages/7.x/apt stable main
 
-apt-get install elasticsearch
-systemctl start elasticsearch.service
-systemctl enable elasticsearch.service
-
+configuração elastic
+vi /etc/elasticsearch/elasticsearch.yml
+desmarcar o cluster e inserir o nome
+no final do arquivo, incluir action.auto_create_index: false
+systemclt daemon-reload
 
 Instalar GreyLog
 wget https://packages.graylog2.org/repo/packages/graylog-4.0-repository_latest.deb
@@ -45,8 +32,8 @@ apt-get update
 apt-get install graylog-server
 systemctl enable graylog-server
 
+Configuração graylog
 Editar o arquivo /etc/graylog/server/server.conf
-
 pwgen -N 1 -s 96
 password_secret = 
 
@@ -54,16 +41,13 @@ echo -n "Enter Password: " && head -1 </dev/stdin | tr -d '\n' | sha256sum | cut
 root_password_sha2 =
 
 root_timezone = America/Manaus
-
 http_bind_address = 192.168.1.22:9000
 
-Configuração rsyslog
-*.* @(ip do servidor):514;RSYSLOG_SyslogProtocol23Format
-
-systemctl daemon-reload
 systemctl enable graylog-server.service
-systemctl restart graylog-server.service
-systemctl restart rsyslog
+systemctl start graylog-server.service
+
+Configuração rsyslog
+*.* @(ip do servidor):1514;RSYSLOG_SyslogProtocol23Format
 
 Entrar pela web
 (ip do servidor):9000
@@ -74,3 +58,11 @@ Bind Address
 0.0.0.0
 Port 1514
 Allow overriding date V
+
+
+
+
+
+
+
+
