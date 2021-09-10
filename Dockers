@@ -1,0 +1,5 @@
+#Instalar Docker UCP
+docker container run --rm -it --name ucp \
+ -v /var/run/docker.sock:/var/run/docker.sock \
+ docker/ucp:latest install --host-address 200.100.50.101 \
+ --interactive
