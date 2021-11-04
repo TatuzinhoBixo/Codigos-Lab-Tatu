@@ -1,0 +1,8 @@
+#Criar a chave, com o usuário do sistema a ser usado
+ssh-keygen -t rsa
+
+#Criar a chave publica
+ssh-copy-id -i ~/.ssh/id_rsa.pub $usuario@$ip
+
+#Enviar a chave privada
+
