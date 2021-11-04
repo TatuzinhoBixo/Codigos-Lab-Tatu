@@ -32,11 +32,12 @@ lvextend -L +10GB LVPATH # Aumentar a partição em 10GB
 
 #Procurar por erros
 e2fsck -f LVPATH
-xfs_growfs LVPATH - caso seja no formato xfs
+
 #Para saber o formato df -hT
 
 #Redimencionar a partição
 resize2fs LVPATH
+xfs_growfs LVPATH # caso seja no formato xfs
 
 #Montar a partição novamente
 mount LVPATH /mnt/PASTA
