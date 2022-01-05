@@ -1,0 +1,20 @@
+#Instalação
+apt-get install chrony
+dnf install chrony
+
+#Ativação
+systemctl enable chronyd
+
+#Chegar a atividade
+chronyc activity
+chronyc sources
+chronyc tracking
+timedatectl
+
+#Configuração 
+vim /etc/chrony.conf
+server SERVIDORNTP ibusrt
+
+#Restart no serviço
+systemctl restart chronyd
+
