@@ -1,0 +1,2830 @@
+10.60.0.79:
+  nodename: 10.60.0.79
+  hostname: 10.60.0.79
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: rede
+  tags: 'rundeck'
+10.20.0.62:
+  nodename: 10.20.0.62
+  hostname: 10.20.0.62
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: AADES
+  osName: ANALANDIA
+  username: rede
+  tags: ['AADES' ,'DEBIAN7' ,'PRD']
+10.20.0.61:
+  nodename: 10.20.0.61
+  hostname: 10.20.0.61
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: AADES
+  osName: JUSSSARA
+  username: rede
+  tags: ['AADES', 'DEBIAN7', 'PRD']
+10.20.0.63:
+  nodename: 10.20.0.63
+  hostname: 10.20.0.63
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: AADES
+  osName: JUSSIAPE
+  username: rede
+  tags: ['AADES', 'DEBIAN7', 'PRD']
+10.20.1.65:
+  nodename: 10.20.1.65
+  hostname: 10.20.1.65
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: AADES
+  osName: MARAGOGIPE
+  username: rede
+  tags: ['AADES', 'DEBIAN6', 'PRD']
+10.20.0.244:
+  nodename: 10.20.0.244
+  hostname: 10.20.0.244
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: CETAM
+  osName: CAIANA
+  username: rede
+  tags: ['CETAM', 'DEBIAN9', 'PRD']
+10.20.2.20:
+  nodename: 10.20.2.20
+  hostname: 10.20.2.20
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: CETAM
+  osName: INDIANAPOLIS
+  username: rede
+  tags: ['CETAM', 'DEBIAN9', 'PRD']
+10.20.2.21:
+  nodename: 10.20.2.21
+  hostname: 10.20.2.21
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: CETAM
+  osName: INGAI
+  username: rede
+  tags: ['CETAM', 'DEBIAN9', 'PRD']
+10.20.2.19:
+  nodename: 10.20.2.19
+  hostname: 10.20.2.19
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: CETAM
+  osName: IPABA
+  username: rede
+  tags: ['CETAM', 'DEBIAN9', 'PRD']
+10.20.2.23:
+  nodename: 10.20.2.23
+  hostname: 10.20.2.23
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: CETAM
+  osName: ITAIPE
+  username: rede
+  tags: ['CETAM', 'DEBIAN9', 'PRD']
+10.20.2.24:
+  nodename: 10.20.2.24
+  hostname: 10.20.2.24
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: CETAM
+  osName: ITAJUBA
+  username: rede
+  tags: ['CETAM' ,'DEBIAN9', 'PRD']
+10.20.3.18:
+  nodename: 10.20.3.18
+  hostname: 10.20.3.18
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: MACHADO
+  username: rede
+  tags: ['DETRAN', 'CENTOS7', 'PRD']
+10.20.0.102:
+  nodename: 10.20.0.102
+  hostname: 10.20.0.102
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: MONTESANTO
+  username: rede
+  tags: ['DETRAN', 'DEBIAN9', 'PRD']
+10.20.1.74:
+  nodename: 10.20.1.74
+  hostname: 10.20.1.74
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: MORPARA
+  username: rede
+  tags: ['DETRAN', 'DEBIAN8', 'PRD']
+10.20.1.128:
+  nodename: 10.20.1.128
+  hostname: 10.20.1.128
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: MORROCHAPEU
+  username: rede
+  tags: ['DETRAN', 'DEBIAN8', 'PRD']
+10.20.1.72:
+  nodename: 10.20.172
+  hostname: 10.20.172
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: ARINOS
+  username: rede
+  tags: ['DETRAN', 'DEBIAN7', 'PRD']
+10.20.1.85:
+  nodename: 10.20.0.102
+  hostname: 10.20.0.102
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: BALDIM
+  username: rede
+  tags: ['DETRAN', 'DEBIAN7', 'PRD']
+10.20.2.35:
+  nodename: 10.20.2.35
+  hostname: 10.20.2.35
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: MUNHOZ
+  username: rede
+  tags: ['DETRAN', 'DEBIAN9', 'PRD']
+10.20.2.83:
+  nodename: 10.20.2.83
+  hostname: 10.20.2.83
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: PECANHA
+  username: rede
+  tags: ['DETRAN', 'DEBIAN9', 'PRD']
+10.20.3.98:
+  nodename: 10.20.3.98
+  hostname: 10.20.3.98
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: UBERLANDIA
+  username: rede
+  tags: ['DETRAN', 'DEBIAN9', 'PRD']
+10.20.0.5:
+  nodename: 10.20.0.5
+  hostname: 10.20.0.5
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: UIRAMATA
+  username: rede
+  tags: ['DETRAN', 'DEBIAN11', 'PRD']
+10.20.1.2:
+  nodename: 10.20.1.2
+  hostname: 10.20.1.2
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: FAPEAM
+  osName: JABORANDI
+  username: rede
+  tags: ['FAPEAM', 'DEBIAN6', 'PRD']
+10.20.1.187:
+  nodename: 10.20.1.187
+  hostname: 10.20.1.187
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEAD
+  osName: ESTIVA
+  username: rede
+  tags: ['DETRAN', 'DEBIAN9', 'PRD']
+10.20.0.49:
+  nodename: 10.20.0.49
+  hostname: 10.20.0.49
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEAS
+  osName: ERVALIA
+  username: rede
+  tags: ['SEAS', 'DEBIAN9', 'PRD']
+10.20.1.173:
+  nodename: 10.20.1.173
+  hostname: 10.20.1.173
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: ATIBAIA
+  username: rede
+  tags: ['SSP', 'DEBIAN6', 'PRD']
+10.20.1.192:
+  nodename: 10.20.1.192
+  hostname: 10.20.1.192
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: BARRINHA
+  username: rede
+  tags: ['SSP', 'DEBIAN6', 'PRD']
+10.20.1.252:
+  nodename: 10.20.1.252
+  hostname: 10.20.1.252
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: BRASOLPOLIS
+  username: rede
+  tags: ['SSP', 'DEBIAN8', 'PRD']  
+10.20.1.166:
+  nodename: 10.20.1.166
+  hostname: 10.20.1.166
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: CANDIBA
+  username: rede
+  tags: ['SSP', 'DEBIAN6', 'PRD']
+10.20.1.135:
+  nodename: 10.20.1.135
+  hostname: 10.20.1.135
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: EIRUNEPE
+  username: rede
+  tags: ['SSP', 'DEBIAN6', 'PRD']
+10.20.1.109:
+  nodename: 10.20.1.109
+  hostname: 10.20.1.109
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: GUAJARA
+  username: rede
+  tags: ['SSP', 'DEBIAN6', 'PRD']
+10.20.1.183:
+  nodename: 10.20.1.183
+  hostname: 10.20.1.183
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: HUMAITA
+  username: rede
+  tags: ['SSP', 'DEBIAN6', 'PRD']
+10.20.1.5:
+  nodename: 10.20.1.5
+  hostname: 10.20.1.5
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: ITAPIRANGA
+  username: rede
+  tags: ['SSP', 'DEBIAN6', 'PRD'] 
+10.20.1.201:
+  nodename: 10.20.1.201
+  hostname: 10.20.1.201
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: JUTAI
+  username: rede
+  tags: ['SSP', 'DEBIAN6', 'PRD']
+10.20.1.204:
+  nodename: 10.20.1.204
+  hostname: 10.20.1.204
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: MAUES
+  username: rede
+  tags: ['SSP', 'DEBIAN6', 'PRD']
+10.20.1.183:
+  nodename: 10.20.1.183
+  hostname: 10.20.1.183
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: HUMAITA
+  username: rede
+  tags: ['SSP', 'DEBIAN6', 'PRD']
+10.20.2.183:
+  nodename: 10.20.2.183
+  hostname: 10.20.2.183
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: BARCELOS
+  username: rede
+  tags: ['DEBIAN8', 'PRD']
+10.20.2.238:
+  nodename: 10.20.2.238
+  hostname: 10.20.2.238
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: ITAPARICA
+  username: rede
+  tags: ['DEBIAN11', 'PRD']  
+10.20.2.16:
+  nodename: 10.20.3.16
+  hostname: 10.20.3.16
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PARANA
+  username: rede
+  tags: ['DEBIAN11', 'PRD']
+10.20.1.79:
+  nodename: 10.20.1.79
+  hostname: 10.20.1.79
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: ALAMBRI
+  username: rede
+  tags: ['DEBIAN5', 'PRD']
+10.20.1.96:
+  nodename: 10.20.1.96
+  hostname: 10.20.1.96
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: APIAI
+  username: rede
+  tags: ['DEBIAN6', 'PRD']
+10.10.2.8:
+  nodename: 10.10.2.8
+  hostname: 10.10.2.8
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: ARCOIRIS
+  username: rede
+  tags: ['DEBIAN7', 'PRD']         
+10.20.1.233:
+  nodename: 10.20.1.183
+  hostname: 10.20.1.183
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: ARTHUR
+  username: rede
+  tags: ['DEBIAN7', 'PRD']  
+10.20.1.41:
+  nodename: 10.20.1.41
+  hostname: 10.20.1.41
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: BURITIS
+  username: rede
+  tags: ['DEBIAN9', 'PRD']  
+10.20.1.27:
+  nodename: 10.20.1.27
+  hostname: 10.20.1.27
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: CACHOEIRA
+  username: rede
+  tags: ['DEBIAN7', 'PRD']
+10.20.1.115:
+  nodename: 10.20.1.155
+  hostname: 10.20.1.155
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: CAFELANDIA
+  username: rede
+  tags: ['ORACLELINUX6', 'PRD']    
+10.20.0.70:
+  nodename: 10.20.0.70
+  hostname: 10.20.0.70
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: CANITA
+  username: rede
+  tags: ['DEBIAN8', 'PRD']  
+10.20.1.19:
+  nodename: 10.20.1.19
+  hostname: 10.20.1.19
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: CARAUARI
+  username: rede
+  tags: ['DEBIAN5', 'PRD'] 
+10.20.0.44:
+  nodename: 10.20.0.44
+  hostname: 10.20.0.44
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: CEDRAL
+  username: rede
+  tags: ['DEBIAN8', 'PRD'] 
+10.10.2.107:
+  nodename: 10.10.2.107
+  hostname: 10.10.2.107
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: CRAVINHOS
+  username: rede
+  tags: ['DEBIAN5', 'PRD']
+10.20.0.169:
+  nodename: 10.20.0.169
+  hostname: 10.20.0.169
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: CUPARAQUE
+  username: rede
+  tags: ['DEBIAN8', 'PRD']
+10.20.0.80:
+  nodename: 10.20.0.80
+  hostname: 10.20.0.80
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: DARIO
+  username: rede
+  tags: ['DEBIAN10', 'PRD'] 
+10.20.0.32:
+  nodename: 10.20.0.32
+  hostname: 10.20.0.32
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: DIONISIO
+  username: rede
+  tags: ['DEBIAN9', 'PRD']  
+10.20.0.45:
+  nodename: 10.20.0.45
+  hostname: 10.20.0.45
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: DIVINESIA
+  username: rede
+  tags: ['DEBIAN9', 'PRD']         
+10.20.1.58:
+  nodename: 10.20.1.58
+  hostname: 10.20.1.58
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: IBIRACI
+  username: rede
+  tags: ['DEBIAN7', 'PRD']
+10.20.0.92:
+  nodename: 10.20.0.92
+  hostname: 10.20.0.92
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: IBIQUERA
+  username: rede
+  tags: ['ORACLELINUX7', 'PRD']
+10.20.2.18:
+  nodename: 10.20.2.18
+  hostname: 10.20.2.18
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: IGUATAMA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.60.0.142:
+  nodename: 10.60.0.142
+  hostname: 10.60.0.142
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: ILHEUS
+  username: rede
+  tags: ['ORACLELINUX7', 'PRD']     
+10.20.1.104:
+  nodename: 10.20.1.104
+  hostname: 10.20.1.104
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: ITACARE
+  username: rede
+  tags: ['DEBIAN7', 'PRD']   
+10.20.3.14:
+  nodename: 10.20.3.14
+  hostname: 10.20.3.14
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: ITAMARANDIBA
+  username: rede
+  tags: ['CENTOS8', 'PRD'] 
+10.20.1.68:
+  nodename: 10.20.1.68
+  hostname: 10.20.1.68
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: ITAPETINGA
+  username: rede
+  tags: ['DEBIAN7', 'PRD']   
+10.20.1.216:
+  nodename: 10.20.1.216
+  hostname: 10.20.1.216
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: JACOBINA
+  username: rede
+  tags: ['DEBIAN5', 'PRD']  
+10.20.1.64:
+  nodename: 10.20.1.64
+  hostname: 10.20.1.64
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: JAPURA
+  username: rede
+  tags: ['DEBIAN6', 'PRD']  
+10.20.0.81:
+  nodename: 10.20.0.81
+  hostname: 10.20.0.81
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: JURUTI
+  username: rede
+  tags: ['DEBIAN11', 'PRD']  
+10.20.0.37:
+  nodename: 10.20.0.37
+  hostname: 10.20.0.37
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: MAETINGA
+  username: rede
+  tags: ['DEBIAN8', 'PRD']
+10.20.0.2:
+  nodename: 10.20.0.2
+  hostname: 10.20.0.2
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: MAIRI
+  username: rede
+  tags: ['ORACLELINUX6', 'PRD']
+10.20.1.176:
+  nodename: 10.20.1.176
+  hostname: 10.20.1.176
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: MANACAPURU
+  username: rede
+  tags: ['DEBIAN6', 'PRD']      
+10.20.2.39:
+  nodename: 10.20.2.39
+  hostname: 10.20.2.39
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: MANGA
+  username: rede
+  tags: ['CENTOS7', 'PRD']  
+10.40.1.70:
+  nodename: 10.40.1.70
+  hostname: 10.40.1.70
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: MANGABEIRA
+  username: rede
+  tags: ['DEBIAN7', 'PRD']  
+10.20.1.213:
+  nodename: 10.20.1.213
+  hostname: 10.20.1.213
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: MAPARI
+  username: rede
+  tags: ['DEBIAN6', 'PRD']    
+10.20.1.219:
+  nodename: 10.20.1.219
+  hostname: 10.20.1.219
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: MACAUBAS
+  username: rede
+  tags: ['DEBIAN6', 'PRD']   
+10.20.1.75:
+  nodename: 10.20.1.75
+  hostname: 10.20.1.75
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PIRAPORA
+  username: rede
+  tags: ['DEBIAN7', 'PRD']  
+10.20.1.33:
+  nodename: 10.20.1.33
+  hostname: 10.20.1.33
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PRARQDIG
+  username: rede
+  tags: ['DEBIAN9', 'PRD']  
+10.20.1.184:
+  nodename: 10.20.1.184
+  hostname: 10.20.1.184
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PRDB006
+  username: rede
+  tags: ['DEBIAN5', 'PRD']  
+10.20.1.185:
+  nodename: 10.20.1.185
+  hostname: 10.20.1.185
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PRDB007
+  username: rede
+  tags: ['DEBIAN5', 'PRD']
+10.20.1.193:
+  nodename: 10.20.1.193
+  hostname: 10.20.1.193
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PRDB014
+  username: rede
+  tags: ['DEBIAN7', 'PRD']
+10.20.1.13:
+  nodename: 10.20.1.13
+  hostname: 10.20.1.13
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PRDB015
+  username: rede
+  tags: ['DEBIAN7', 'PRD']
+10.20.1.199:
+  nodename: 10.20.1.199
+  hostname: 10.20.1.199
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PRDB019
+  username: rede
+  tags: ['DEBIAN6', 'PRD']
+10.20.1.151:
+  nodename: 10.20.1.151
+  hostname: 10.20.1.151
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PRDB058
+  username: rede
+  tags: ['DEBIAN5', 'PRD']
+10.20.1.69:
+  nodename: 10.20.1.69
+  hostname: 10.20.1.69
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PRDB059
+  username: rede
+  tags: ['DEBIAN5', 'PRD']
+10.20.1.163:
+  nodename: 10.20.1.163
+  hostname: 10.20.1.163
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PRDB062
+  username: rede
+  tags: ['DEBIAN5', 'PRD']
+10.20.1.29:
+  nodename: 10.20.1.29
+  hostname: 10.20.1.29
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PRDB085
+  username: rede
+  tags: ['DEBIAN5', 'PRD']
+10.20.1.197:
+  nodename: 10.20.1.197
+  hostname: 10.20.1.197
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: PRDB090
+  username: rede
+  tags: ['DEBIAN7', 'PRD']
+10.20.0.71:
+  nodename: 10.20.0.71
+  hostname: 10.20.0.71
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: RONDONIA
+  username: rede
+  tags: ['DEBIAN7', 'PRD']
+10.20.1.161:
+  nodename: 10.20.1.161
+  hostname: 10.20.1.161
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: TALONARIO
+  username: rede
+  tags: ['DEBIAN6', 'PRD']
+10.20.1.76:
+  nodename: 10.20.1.76
+  hostname: 10.20.1.76
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: WEBSRV01
+  username: rede
+  tags: ['DEBIAN5', 'PRD']
+10.20.1.130:
+  nodename: 10.20.1.130
+  hostname: 10.20.1.130
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: SISP_OBJECTMMS
+  username: rede
+  tags: ['DEBIAN6', 'PRD']
+10.20.0.8:
+  nodename: 10.20.0.8
+  hostname: 10.20.0.8
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXBI
+  osName: ACADIA
+  username: rede
+  tags: ['ORACLELINUX7', 'PRD']  
+10.20.1.97:
+  nodename: 10.20.1.97
+  hostname: 10.20.1.97
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXEXRESSO 
+  osName: EXPRESS0-HTTP-LENNY
+  username: rede
+  tags: ['DEBIAN7', 'PRD']  
+10.20.0.20:
+  nodename: 10.20.0.20
+  hostname: 10.20.0.20
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXEXPRESSO 
+  osName: EXPRESS0-SMTPS
+  username: rede
+  tags: ['DEBIAN9', 'PRD']    
+10.20.0.26:
+  nodename: 10.20.0.26
+  hostname: 10.20.0.26
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: CONCHAL
+  username: rede
+  tags: ['DEBIAN7', 'PRD']      
+10.20.1.190:
+  nodename: 10.20.1.190
+  hostname: 10.20.1.190
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: ALMADIA
+  username: rede
+  tags: ['REDHAT5', 'PRD']        
+10.20.1.162:
+  nodename: 10.20.1.162
+  hostname: 10.20.1.162
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: AMERICO
+  username: rede
+  tags: ['DEBIAN7', 'PRD']  
+10.20.1.242:
+  nodename: 10.20.1.242
+  hostname: 10.20.1.242
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: IRACI
+  username: rede
+  tags: ['DEBIAN7', 'PRD'] 
+10.40.1.32:
+  nodename: 10.40.1.32
+  hostname: 10.40.1.32
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: BARROCAS
+  username: rede
+  tags: ['DEBIAN6', 'PRD']                 
+10.20.1.90:
+  nodename: 10.20.1.90
+  hostname: 10.20.1.90
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: BARROSO
+  username: rede
+  tags: ['DEBIAN7', 'PRD']        
+10.20.0.235:
+  nodename: 10.20.0.235
+  hostname: 10.20.0.235
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: BUENOPOLIS
+  username: rede
+  tags: ['DEBIAN9', 'PRD']        
+10.20.0.38:
+  nodename: 10.20.0.38
+  hostname: 10.20.0.38
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: CANAPOLIS
+  username: rede
+  tags: ['CENTOS7', 'PRD']   
+10.20.0.109:
+  nodename: 10.20.0.109
+  hostname: 10.20.0.109
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: CAPITOLIO
+  username: rede
+  tags: ['DEBIAN9', 'PRD']   
+10.10.3.8:
+  nodename: 10.10.3.8
+  hostname: 10.10.3.8
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: DATAS
+  username: rede
+  tags: ['CENTOS7', 'PRD'] 
+10.20.2.38:
+  nodename: 10.20.3.38
+  hostname: 10.20.3.38
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: IBERTIOGA
+  username: rede
+  tags: ['DEBIAN8', 'PRD'] 
+10.20.2.41:
+  nodename: 10.20.2.41
+  hostname: 10.20.2.41
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: MUTUM
+  username: rede
+  tags: ['DEBIAN9', 'PRD'] 
+10.20.3.37:
+  nodename: 10.20.3.37
+  hostname: 10.20.3.37
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: OBIDOS
+  username: rede
+  tags: ['DEBIAN10', 'PRD'] 
+10.20.0.235:
+  nodename: 10.20.0.235
+  hostname: 10.20.0.235
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: BUENOPOLIS
+  username: rede
+  tags: ['DEBIAN9', 'PRD'] 
+10.20.0.10:
+  nodename: 10.20.0.10
+  hostname: 10.20.0.10
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: CAPARAO
+  username: rede
+  tags: ['CENTOS7', 'PRD']
+10.20.0.78:
+  nodename: 10.20.0.78
+  hostname: 10.20.0.78
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: FORMOSA
+  username: rede
+  tags: ['CENTOS7', 'PRD']
+10.20.0.242:
+  nodename: 10.20.0.242
+  hostname: 10.20.0.242
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: GOIANA
+  username: rede
+  tags: ['DEBIAN5', 'PRD']   
+10.20.1.59:
+  nodename: 10.20.1.59
+  hostname: 10.20.1.59
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: ANORI
+  username: rede
+  tags: ['DEBIAN5', 'PRD'] 
+10.20.0.86:
+  nodename: 10.20.0.86
+  hostname: 10.20.0.86
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: OIAPOQUE
+  username: rede
+  tags: ['DEBIAN7', 'PRD'] 
+10.20.0.85:
+  nodename: 10.20.0.85
+  hostname: 10.20.0.85
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: SERITINGA
+  username: rede
+  tags: ['DEBIAN10', 'PRD'] 
+10.20.1.39:
+  nodename: 10.20.1.39
+  hostname: 10.20.1.39
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: AUTAZES
+  username: rede
+  tags: ['DEBIAN5', 'PRD'] 
+10.20.1.164:
+  nodename: 10.20.1.164
+  hostname: 10.20.1.164
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: BAMBUI
+  username: rede
+  tags: ['DEBIAN9', 'PRD'] 
+10.20.1.138:
+  nodename: 10.20.1.138
+  hostname: 10.20.1.138
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: BATATAIS
+  username: rede
+  tags: ['DEBIAN8', 'PRD'] 
+10.20.0.122:
+  nodename: 10.20.0.122
+  hostname: 10.20.0.122
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: BETIM
+  username: rede
+  tags: ['DEBIAN7', 'PRD'] 
+10.20.1.100:
+  nodename: 10.20.1.100
+  hostname: 10.20.1.100
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: CARANGOLA
+  username: rede
+  tags: ['DEBIAN9', 'PRD'] 
+10.20.0.165:
+  nodename: 10.20.0.165
+  hostname: 10.20.0.165
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: CRISTINA
+  username: rede
+  tags: ['DEBIAN5', 'PRD'] 
+10.20.0.188:
+  nodename: 10.20.0.188
+  hostname: 10.20.0.188
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: GONCALVES
+  username: rede
+  tags: ['DEBIAN9', 'PRD'] 
+10.20.1.47:
+  nodename: 10.20.1.47
+  hostname: 10.20.1.47
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: GONGOGI
+  username: rede
+  tags: ['DEBIAN6', 'PRD'] 
+10.20.2.4:
+  nodename: 10.20.2.4
+  hostname: 10.20.2.4
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: MEDINA
+  username: rede
+  tags: ['DEBIAN9', 'PRD'] 
+10.20.0.91:
+  nodename: 10.20.0.91
+  hostname: 10.20.0.91
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: MEDINA
+  username: rede
+  tags: ['DEBIAN9', 'PRD'] 
+10.20.0.91:
+  nodename: 10.20.0.91
+  hostname: 10.20.0.91
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: MILAGRES
+  username: rede
+  tags: ['DEBIAN8', 'PRD'] 
+10.20.1.7:
+  nodename: 10.20.1.7
+  hostname: 10.20.1.7
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: MURITUBA
+  username: rede
+  tags: ['DEBIAN8', 'PRD'] 
+10.20.3.34:
+  nodename: 10.20.3.34
+  hostname: 10.20.3.34
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: PRATINHA
+  username: rede
+  tags: ['CENTOS8', 'PRD'] 
+10.20.1.207:
+  nodename: 10.20.1.207
+  hostname: 10.20.1.207
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: PRATINHA-PROXY
+  username: rede
+  tags: ['CENTOS8', 'PRD'] 
+10.20.3.19:
+  nodename: 10.20.3.19
+  hostname: 10.20.3.19
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC 
+  osName: URUARA
+  username: rede
+  tags: ['DEBIAN11', 'PRD'] 
+10.20.1.251:
+  nodename: 10.20.1.251
+  hostname: 10.20.1.251
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: AADES
+  osName: CAETANOS
+  username: rede
+  tags: ['DEBIAN7', 'HOM'] 
+10.20.3.17:
+  nodename: 10.20.3.17
+  hostname: 10.20.3.17
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: GOIABEIRA
+  username: rede
+  tags: ['CENTOS7', 'HOM'] 
+10.20.1.105:
+  nodename: 10.20.1.105
+  hostname: 10.20.1.105
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: ITAETE
+  username: rede
+  tags: ['DEBIAN7', 'HOM'] 
+10.20.CRUCLANDIA:
+  nodename: 10.20.0.167
+  hostname: 10.20.0.167
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: CRUCLANDIA
+  username: rede
+  tags: ['DEBIAN9', 'HOM'] 
+10.20.1.4:
+  nodename: 10.20.1.4
+  hostname: 10.20.1.4
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: 
+  osName: ARACATUBA
+  username: rede
+  tags: ['DEBIAN10', 'HOM'] 
+10.20.0.75:
+  nodename: 10.20.0.75
+  hostname: 10.20.0.75
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: CARAUARI
+  username: rede
+  tags: ['DEBIAN5', 'HOM'] 
+10.20.0.25:
+  nodename: 10.20.0.25
+  hostname: 10.20.0.25
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: COROADOS
+  username: rede
+  tags: ['DEBIAN7', 'HOM'] 
+10.20.1.186:
+  nodename: 10.20.1.186
+  hostname: 10.20.1.186
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: CARABAIBA
+  username: rede
+  tags: ['ORACLE7', 'HOM'] 
+10.20.0.46:
+  nodename: 10.20.0.46
+  hostname: 10.20.0.46
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: DIVINO
+  username: rede
+  tags: ['DEBIAN9', 'HOM'] 
+10.20.0.41:
+  nodename: 10.20.0.41
+  hostname: 10.20.0.41
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: ITAMONTE
+  username: rede
+  tags: ['DEBIAN8', 'HOM'] 
+10.20.0.170:
+  nodename: 10.20.0.170
+  hostname: 10.20.0.170
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REHOSTING
+  osName: FLORESTAL
+  username: rede
+  tags: ['REDHAT8', 'HOM'] 
+10.20.0.30:
+  nodename: 10.20.0.30
+  hostname: 10.20.0.30
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEAD
+  osName: DELFINOPOLIS-NGINX
+  username: rede
+  tags: ['DEBIAN11', 'HOM'] 
+10.20.0.65:
+  nodename: 10.20.0.65
+  hostname: 10.20.0.65
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEAS
+  osName: ARACARIGUAMA
+  username: rede
+  tags: ['DEBIAN9', 'HOM'] 
+10.20.0.77:
+  nodename: 10.20.0.77
+  hostname: 10.20.0.77
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: CANTAGALO-CLONE
+  username: rede
+  tags: ['DEBIAN9', 'HOM'] 
+10.20.1.4:
+  nodename: 10.20.1.4
+  hostname: 10.20.1.4
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: CANTAGALO
+  username: rede
+  tags: ['DEBIAN9', 'HOM'] 
+10.20.1.77:
+  nodename: 10.20.1.77
+  hostname: 10.20.1.77
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP_HOM
+  osName: AGUDOS
+  username: rede
+  tags: ['DEBIAN6', 'HOM'] 
+10.20.1.243:
+  nodename: 10.20.1.243
+  hostname: 10.20.1.243
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP_HOM
+  osName: CAFARNAUM
+  username: rede
+  tags: ['REDHAT5', 'HOM'] 
+10.20.0.93:
+  nodename: 10.20.0.93
+  hostname: 10.20.0.93
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP_HOM
+  osName: CAJATI
+  username: rede
+  tags: ['DEBIAN8', 'HOM'] 
+10.20.1.202:
+  nodename: 10.20.1.202
+  hostname: 10.20.1.202
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP_HOM
+  osName: LABREA
+  username: rede
+  tags: ['DEBIAN6', 'HOM'] 
+10.20.0.72:
+  nodename: 10.20.0.72
+  hostname: 10.20.0.72
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: SERRANOS
+  username: rede
+  tags: ['DEBIAN7', 'HOM'] 
+10.20.1.78:
+  nodename: 10.20.1.78
+  hostname: 10.20.1.78
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: AJAPI
+  username: rede
+  tags: ['DEBIAN7', 'HOM'] 
+  10.20.1.250:
+  nodename: 10.20.1.250
+  hostname: 10.20.1.250
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: ALCOBACA
+  username: rede
+  tags: ['REDHAT5', 'HOM'] 
+10.20.1.87:
+  nodename: 10.20.1.87
+  hostname: 10.20.1.87
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: APARECIDA
+  username: rede
+  tags: ['DEBIAN6', 'HOM'] 
+10.20.1.112:
+  nodename: 10.20.1.112
+  hostname: 10.20.1.112
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: ARIRANHA
+  username: rede
+  tags: ['DEBIAN7', 'HOM'] 
+10.20.1.141:
+  nodename: 10.20.1.141
+  hostname: 10.20.1.141
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: ATALAIA
+  username: rede
+  tags: ['DEBIAN6', 'HOM'] 
+10.20.0.103:
+  nodename: 10.20.0.103
+  hostname: 10.20.0.103
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: AURELINO
+  username: rede
+  tags: ['DEBIAN8', 'HOM'] 
+10.20.0.110:
+  nodename: 10.20.0.110
+  hostname: 10.20.0.110
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: BERIZAL
+  username: rede
+  tags: ['ORACLELINUX7', 'HOM'] 
+10.20.0.192:
+  nodename: 10.20.0.192
+  hostname: 10.20.0.192
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: BORBOREMA
+  username: rede
+  tags: ['DEBIAN8', 'HOM'] 
+10.20.0.100:
+  nodename: 10.20.0.100
+  hostname: 10.20.0.100
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: BUENAS
+  username: rede
+  tags: ['DEBIAN8', 'HOM'] 
+10.20.1.129:
+  nodename: 10.20.1.129
+  hostname: 10.20.1.129
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: CAMPESTRE
+  username: rede
+  tags: ['DEBIAN9', 'HOM'] 
+10.20.1.129:
+  nodename: 10.20.1.129
+  hostname: 10.20.1.129
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: CAMPESTRE
+  username: rede
+  tags: ['DEBIAN9', 'HOM'] 
+10.20.0.88:
+  nodename: 10.20.0.88
+  hostname: 10.20.0.88
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: CARVALHOS
+  username: rede
+  tags: ['ORACLELINUX7', 'HOM'] 
+10.20.1.191:
+  nodename: 10.20.1.191
+  hostname: 10.20.1.191
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: CORRENTINA
+  username: rede
+  tags: ['DEBIAN7', 'HOM'] 
+10.20.1.24:
+  nodename: 10.20.1.24
+  hostname: 10.20.1.24
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: IBICOARA
+  username: rede
+  tags: ['DEBIAN7', 'HOM'] 
+10.20.0.245:
+  nodename: 10.20.0.245
+  hostname: 10.20.0.245
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: LENCOIS
+  username: rede
+  tags: ['DEBIAN7', 'HOM'] 
+10.20.1.49:
+  nodename: 10.20.1.49
+  hostname: 10.20.1.49
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: MAARA
+  username: rede
+  tags: ['REDHAT5', 'HOM'] 
+10.20.1.194:
+  nodename: 10.20.1.194
+  hostname: 10.20.1.194
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: MARACAS
+  username: rede
+  tags: ['DEBIAN8', 'HOM'] 
+10.20.1.63:
+  nodename: 10.20.1.63
+  hostname: 10.20.1.63
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: MASCOTE
+  username: rede
+  tags: ['DEBIAN8', 'HOM'] 
+10.20.0.229:
+  nodename: 10.20.0.229
+  hostname: 10.20.0.229
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: ORACLE-DATAGUARD
+  username: rede
+  tags: ['ORACLELINUX7', 'HOM'] 
+10.20.1.145:
+  nodename: 10.20.1.145
+  hostname: 10.20.1.145
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: PORTALSIGA
+  username: rede
+  tags: ['REDHAT4', 'HOM'] 
+10.20.1.198:
+  nodename: 10.20.1.198
+  hostname: 10.20.1.198
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: PRDB018
+  username: rede
+  tags: ['DEBIAN6', 'HOM'] 
+10.20.1.217:
+  nodename: 10.20.1.217
+  hostname: 10.20.1.217
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: PRDB021
+  username: rede
+  tags: ['DEBIAN5', 'HOM'] 
+10.20.1.226:
+  nodename: 10.20.1.266
+  hostname: 10.20.1.226
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: PRDB038
+  username: rede
+  tags: ['DEBIAN5', 'HOM'] 
+10.20.1.28:
+  nodename: 10.20.1.28
+  hostname: 10.20.1.28
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: PRDB084
+  username: rede
+  tags: ['DEBIAN5', 'HOM'] 
+10.20.1.80:
+  nodename: 10.20.1.80
+  hostname: 10.20.1.80
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: PRDB089
+  username: rede
+  tags: ['ORACLELINUX6', 'HOM'] 
+10.20.1.35:
+  nodename: 10.20.1.35
+  hostname: 10.20.1.35
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: TALONARIO
+  username: rede
+  tags: ['DEBIAN6', 'HOM'] 
+10.20.0.31:
+  nodename: 10.20.0.31
+  hostname: 10.20.0.31
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: DESCOBERTO
+  username: rede
+  tags: ['DEBIAN9', 'HOM'] 
+10.20.0.58:
+  nodename: 10.20.0.58
+  hostname: 10.20.0.58
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: FELIXLANDIA
+  username: rede
+  tags: ['REDHAT7', 'HOM']
+10.20.0.182:
+  nodename: 10.20.0.182
+  hostname: 10.20.0.182
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: FUNILANDIA
+  username: rede
+  tags: ['CENTOS7', 'HOM']
+10.20.0.89:
+  nodename: 10.20.0.89
+  hostname: 10.20.0.89
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: IPATINGA
+  username: rede
+  tags: ['DEBIAN9', 'HOM']
+10.20.0.24:
+  nodename: 10.20.0.24
+  hostname: 10.20.0.24
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: VISCOSA
+  username: rede
+  tags: ['DEBIAN10', 'HOM']
+10.20.0.42:
+  nodename: 10.20.0.42
+  hostname: 10.20.0.42
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEAD-SIGED
+  osName: ITAOBIM
+  username: rede
+  tags: ['CENTOS7', 'HOM']
+10.20.0.87:
+  nodename: 10.20.0.87
+  hostname: 10.20.0.87
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEAS
+  osName: CARNEIRINHO
+  username: rede
+  tags: ['DEBIAN10', 'HOM']
+10.20.0.23:
+  nodename: 10.20.0.23
+  hostname: 10.20.0.23
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEAS
+  osName: LOBO
+  username: rede
+  tags: ['DEBIAN9', 'HOM']
+10.20.0.79:
+  nodename: 10.20.0.79
+  hostname: 10.20.0.79
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: ALE
+  osName: SITE
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.1.234:
+  nodename: 10.20.1.234
+  hostname: 10.20.1.234
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: CEMA
+  osName: LAJE
+  username: rede
+  tags: ['DEBIAN5', 'PRD']
+10.20.3.110:
+  nodename: 10.20.3.110
+  hostname: 10.20.3.110
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: CETAM
+  osName: ITAITUBA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.48:
+  nodename: 10.20.0.48
+  hostname: 10.20.0.48
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: CETAM
+  osName: PEQUERI
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.253:
+  nodename: 10.20.0.253
+  hostname: 10.20.0.253
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: GUARANESIA
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.2.59:
+  nodename: 10.20.2.59
+  hostname: 10.20.2.59
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: IBIAI
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.2.56:
+  nodename: 10.20.2.56
+  hostname: 10.20.2.56
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: IBITURUNA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.66:
+  nodename: 10.20.0.66
+  hostname: 10.20.0.66
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: ITAMBE
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.2.6:
+  nodename: 10.20.2.6
+  hostname: 10.20.2.6
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: MARIANA
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.2.58:
+  nodename: 10.20.2.58
+  hostname: 10.20.2.58
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: DETRAN
+  osName: PALMOPOLIS
+  username: rede
+  tags: ['CENTOS7', 'PRD']
+10.20.0.52:
+  nodename: 10.20.0.52
+  hostname: 10.20.0.52
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: FUNATI
+  osName: BENEVIDES
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.55:
+  nodename: 10.20.0.55
+  hostname: 10.20.0.55
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: FUNATI
+  osName: BONFIM
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.50:
+  nodename: 10.20.0.50
+  hostname: 10.20.0.50
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: FUNATI
+  osName: MARITUBA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.10.3.17:
+  nodename: 10.10.3.17
+  hostname: 10.10.3.17
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: ALMERIM
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.1.149:
+  nodename: 10.20.1.149
+  hostname: 10.20.1.149
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: BARAO
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.190:
+  nodename: 10.20.0.190
+  hostname: 10.20.0.190
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: BRAUNA
+  username: rede
+  tags: ['ORACLELINUX7', 'PRD']
+10.20.1.220:
+  nodename: 10.20.1.220
+  hostname: 10.20.1.220
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: CAATIBA-MIRROR
+  username: rede
+  tags: ['DEBIAN8', 'PRD']
+10.20.1.230:
+  nodename: 10.20.1.230
+  hostname: 10.20.1.230
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: CANAA
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.0.163:
+  nodename: 10.20.0.163
+  hostname: 10.20.0.163
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: CALUNA
+  username: rede
+  tags: ['DEBIAN', 'PRD']
+10.20.0.125:
+  nodename: 10.20.0.125
+  hostname: 10.20.0.125
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: ELIAS-OS2PDF
+  username: rede
+  tags: ['DEBIAN11', 'PRD']
+10.20.0.247:
+  nodename: 10.20.0.247
+  hostname: 10.20.0.247
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: GUANHAES
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.1.172:
+  nodename: 10.20.1.172
+  hostname: 10.20.1.172
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: HELIODORA
+  username: rede
+  tags: ['DEBIAN8', 'PRD']
+10.20.1.62:
+  nodename: 10.20.1.62
+  hostname: 10.20.1.62
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: ICHU
+  username: rede
+  tags: ['DEBIAN7', 'PRD']
+10.20.3.11:
+  nodename: 10.20.3.11
+  hostname: 10.20.3.11
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: INHAPIM
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.3.12:
+  nodename: 10.20.3.12
+  hostname: 10.20.3.12
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: INHAUMA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.3.13:
+  nodename: 10.20.3.13
+  hostname: 10.20.3.13
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: INIMUMA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.29:
+  nodename: 10.20.0.29
+  hostname: 10.20.0.29
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: ITAMOGI
+  username: rede
+  tags: ['DEBIAN8', 'PRD']
+10.60.1.202:
+  nodename: 10.60.1.202
+  hostname: 10.60.1.202
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: ITINGA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.1.254:
+  nodename: 10.20.1.254
+  hostname: 10.20.1.254
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: JAGUAQUAR
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.0.47:
+  nodename: 10.20.0.47
+  hostname: 10.20.0.47
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: JAIBA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.3.249:
+  nodename: 10.20.3.249
+  hostname: 10.20.3.249
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: JANUARIA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.40.1.2:
+  nodename: 10.40.1.2
+  hostname: 10.40.1.2
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: LAJINHA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.2.47:
+  nodename: 10.20.2.47
+  hostname: 10.20.2.47
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: LDAP01
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.2.48:
+  nodename: 10.20.2.48
+  hostname: 10.20.2.48
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: LDAP02
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.2.82:
+  nodename: 10.20.2.82
+  hostname: 10.20.2.82
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: PAVAO
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.3.20:
+  nodename: 10.20.3.20
+  hostname: 10.20.3.20
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: TABULEIRO
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.3.21:
+  nodename: 10.20.3.21
+  hostname: 10.20.3.21
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: TAIOBEIRAS
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.3.22:
+  nodename: 10.20.3.22
+  hostname: 10.20.3.22
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: TAPARUBA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.3.23:
+  nodename: 10.20.3.23
+  hostname: 10.20.3.23
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: TAPIRA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.3.24:
+  nodename: 10.20.3.24
+  hostname: 10.20.3.24
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: TAPIRAI
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.3.25:
+  nodename: 10.20.3.25
+  hostname: 10.20.3.25
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: TOLEDO
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.1:
+  nodename: 10.20.0.1
+  hostname: 10.20.0.1
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: VESPASIANO
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.105:
+  nodename: 10.20.0.105
+  hostname: 10.20.0.105
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: VILHENA
+  username: rede
+  tags: ['ORACLELINUX7', 'PRD']
+10.20.3.9:
+  nodename: 10.20.3.9
+  hostname: 10.20.3.9
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: WEBLOGIC
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.82:
+  nodename: 10.20.0.82
+  hostname: 10.20.0.82
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: PRODAM
+  osName: BOTELHO
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.83:
+  nodename: 10.20.0.83
+  hostname: 10.20.0.83
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: BOTUMIRIM
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.2.103:
+  nodename: 10.20.2.103
+  hostname: 10.20.2.103
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: JAMPRUCA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.2.104:
+  nodename: 10.20.2.104
+  hostname: 10.20.2.104
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: JANAUBA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.2.105:
+  nodename: 10.20.2.105
+  hostname: 10.20.2.105
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: JAPARAIBA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.2.112:
+  nodename: 10.20.2.112
+  hostname: 10.20.2.112
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: JOAIMA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.2.247:
+  nodename: 10.20.2.247
+  hostname: 10.20.2.247
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: SERRANIA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.1.3:
+  nodename: 10.20.1.3
+  hostname: 10.20.1.3
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: UBA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.2.3:
+  nodename: 10.20.2.3
+  hostname: 10.20.2.3
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: UBAI
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.14:
+  nodename: 10.20.0.14
+  hostname: 10.20.0.14
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: UBERABA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.16:
+  nodename: 10.20.0.16
+  hostname: 10.20.0.16
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: VARGEM
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.17:
+  nodename: 10.20.0.17
+  hostname: 10.20.0.17
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: VARGINHA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.18:
+  nodename: 10.20.0.18
+  hostname: 10.20.0.18
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: VARJAO
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.19:
+  nodename: 10.20.0.19
+  hostname: 10.20.0.19
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: VARZEA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.21:
+  nodename: 10.20.0.21
+  hostname: 10.20.0.21
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: VARZELANDIA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.9:
+  nodename: 10.20.0.9
+  hostname: 10.20.0.9
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: VAZANTE
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.22:
+  nodename: 10.20.0.22
+  hostname: 10.20.0.22
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: REDEGOVERNO
+  osName: VERDELANDIA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.33:
+  nodename: 10.20.0.33
+  hostname: 10.20.0.33
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEADSIGED
+  osName: GUIRICEMA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.35:
+  nodename: 10.20.0.35
+  hostname: 10.20.0.35
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEADSIGED
+  osName: GURINHATA
+  username: rede
+  tags: ['CENTOS7', 'PRD']
+10.20.0.39:
+  nodename: 10.20.0.39
+  hostname: 10.20.0.39
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEADSIGED
+  osName: IJACI
+  username: rede
+  tags: ['CENTOS7', 'PRD']
+10.20.0.40:
+  nodename: 10.20.0.40
+  hostname: 10.20.0.40
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEADSIGED
+  osName: ILICINEA
+  username: rede
+  tags: ['CENTOS7', 'PRD']
+10.20.0.51:
+  nodename: 10.20.0.51
+  hostname: 10.20.0.51
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEADSIGED
+  osName: VIEIRAS
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.6:
+  nodename: 10.20.0.6
+  hostname: 10.20.0.6
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SECOM
+  osName: BAEPENDI
+  username: rede
+  tags: ['DEBIAN8', 'PRD']
+10.20.2.93:
+  nodename: 10.20.2.93
+  hostname: 10.20.2.93
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: ALAGOA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.73:
+  nodename: 10.20.0.73
+  hostname: 10.20.0.73
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: ALBERTINA
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.2.96:
+  nodename: 10.20.2.96
+  hostname: 10.20.2.96
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: ARAPEI
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.2.126:
+  nodename: 10.20.2.126
+  hostname: 10.20.2.126
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: BREVES
+  username: rede
+  tags: ['REDHAT7', 'PRD']  
+10.20.2.63:
+  nodename: 10.20.2.63
+  hostname: 10.20.2.63
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: CAETE
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.0.127:
+  nodename: 10.20.0.127
+  hostname: 10.20..
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: CHACARA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.164:
+  nodename: 10.20.0.164
+  hostname: 10.20.0.164
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: CRISTALIA
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.2.120:
+  nodename: 10.20.2.120
+  hostname: 10.20.2.120
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: ENTX00
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.2.121:
+  nodename: 10.20.2.121
+  hostname: 10.20.2.121
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: ENTX01
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.1.177:
+  nodename: 10.20.1.177
+  hostname: 10.20.1.177
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: GUARARA
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.1.178:
+  nodename: 10.20.1.178
+  hostname: 10.20.1.178
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: GUAXUPE
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.2.99:
+  nodename: 10.20.2.99
+  hostname: 10.20.2.99
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: ITUETA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.199:
+  nodename: 10.20.0.199
+  hostname: 10.20.0.199
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: MAMONAS
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.0.179:
+  nodename: 10.20.0.179
+  hostname: 10.20.0.179
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: MANAUARA
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.2.94:
+  nodename: 10.20.2.94
+  hostname: 10.20.2.94
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: MATUTINA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.2.51:
+  nodename: 10.20.2.51
+  hostname: 10.20.2.51
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: MOJU
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.2.53:
+  nodename: 10.20.2.53
+  hostname: 10.20.2.53
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: NATALANDIA
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.2.53:
+  nodename: 10.20.2.53
+  hostname: 10.20.2.53
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: NATERCIA
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.2.60:
+  nodename: 10.20.2.60
+  hostname: 10.20.2.60
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: NEPOMUCENO
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.246:
+  nodename: 10.20.0.246
+  hostname: 10.20.0.246
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: NGINX_BALANCER
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.2.55:
+  nodename: 10.20.2.55
+  hostname: 10.20.2.55
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: NINHEIRA
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+ 10.20.2.73:
+  nodename: 10.20.2.73
+  hostname: 10.20.2.73
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: PACAEMBU
+  username: rede
+  tags: ['REDHAT7', 'PRD'] 
+10.20.2.64:
+  nodename: 10.20.2.64
+  hostname: 10.20.2.64
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: PASSOS
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.2.90:
+  nodename: 10.20.2.90
+  hostname: 10.20.2.90
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: PIRANGUCU
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.2.91:
+  nodename: 10.20.2.91
+  hostname: 10.20.2.91
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: PIRANGUINHO
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.2.92:
+  nodename: 10.20.2.92
+  hostname: 10.20.2.92
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: PIRAPETINGA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.2.78:
+  nodename: 10.20.2.78
+  hostname: 10.20.2.78
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: RECREIO
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.2.79:
+  nodename: 10.20.2.79
+  hostname: 10.20.2.79
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: REDUTO
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.2.84:
+  nodename: 10.20.2.84
+  hostname: 10.20.2.84
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: SPRING01
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.2.85:
+  nodename: 10.20.2.85
+  hostname: 10.20.2.85
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: SPRING02
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.2.86:
+  nodename: 10.20.2.86
+  hostname: 10.20.2.86
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: SPRING03
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.2.88:
+  nodename: 10.20.2.88
+  hostname: 10.20.2.88
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEDUC
+  osName: SPRING05
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.2.128:
+  nodename: 10.20.2.128
+  hostname: 10.20.2.128
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEMED
+  osName: GURUPA
+  username: rede
+  tags: ['REDHAT7', 'PRD']
+10.20.1.128:
+  nodename: 10.20.1.124
+  hostname: 10.20.1.124
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEMED
+  osName: ITAGI
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.1.9:
+  nodename: 10.20.1.9
+  hostname: 10.20.1.9
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SES
+  osName: HYGIAWEB-BALANCEADOR
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.0.74:
+  nodename: 10.20.0.74
+  hostname: 10.20.0.74
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: ALEMPARAIBA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
+10.20.1.21:
+  nodename: 10.20.1.21
+  hostname: 10.20.1.21
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: ALVINLANDIA
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
+10.20.1.71:
+  nodename: 10.20.1.71
+  hostname: 10.20.1.71
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP
+  osName: ENVIRA
+  username: rede
+  tags: ['DEBIAN9', 'PRD']
