@@ -439,8 +439,8 @@
   username: rede
   tags: ['DEBIAN7', 'PRD']
 10.20.1.115:
-  nodename: 10.20.1.115
-  hostname: 10.20.1.115
+  nodename: 10.20.1.155
+  hostname: 10.20.1.155
   osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
   osFamily: unix
   osArch: amd64
@@ -898,6 +898,16 @@
   osName: CONCHAL
   username: rede
   tags: ['DEBIAN7', 'PRD']      
+10.20.1.190:
+  nodename: 10.20.1.190
+  hostname: 10.20.1.190
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: LINUXDIVERSOS 
+  osName: ALMADIA
+  username: rede
+  tags: ['REDHAT5', 'PRD']        
 10.20.1.162:
   nodename: 10.20.1.162
   hostname: 10.20.1.162
@@ -1028,9 +1038,9 @@
   osName: CAPARAO
   username: rede
   tags: ['CENTOS7', 'PRD']
-10.20.0.178:
-  nodename: 10.20.0.178
-  hostname: 10.20.0.178
+10.20.0.78:
+  nodename: 10.20.0.78
+  hostname: 10.20.0.78
   osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
   osFamily: unix
   osArch: amd64
@@ -1208,9 +1218,9 @@
   osName: PRATINHA
   username: rede
   tags: ['CENTOS8', 'PRD'] 
-10.60.1.207:
-  nodename: 10.60.1.207
-  hostname: 10.60.1.207
+10.20.1.207:
+  nodename: 10.20.1.207
+  hostname: 10.20.1.207
   osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
   osFamily: unix
   osArch: amd64
@@ -1388,6 +1398,16 @@
   osName: AGUDOS
   username: rede
   tags: ['DEBIAN6', 'HOM'] 
+10.20.1.243:
+  nodename: 10.20.1.243
+  hostname: 10.20.1.243
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SSP_HOM
+  osName: CAFARNAUM
+  username: rede
+  tags: ['REDHAT5', 'HOM'] 
 10.20.0.93:
   nodename: 10.20.0.93
   hostname: 10.20.0.93
@@ -1538,6 +1558,16 @@
   osName: CARVALHOS
   username: rede
   tags: ['ORACLELINUX7', 'HOM'] 
+10.20.1.191:
+  nodename: 10.20.1.191
+  hostname: 10.20.1.191
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: UEA
+  osName: CORRENTINA
+  username: rede
+  tags: ['DEBIAN7', 'HOM'] 
 10.20.1.24:
   nodename: 10.20.1.24
   hostname: 10.20.1.24
@@ -1748,6 +1778,16 @@
   osName: LOBO
   username: rede
   tags: ['DEBIAN9', 'HOM']
+10.20.0.79:
+  nodename: 10.20.0.79
+  hostname: 10.20.0.79
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: ALE
+  osName: SITE
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
 10.20.1.234:
   nodename: 10.20.1.234
   hostname: 10.20.1.234
@@ -2348,6 +2388,16 @@
   osName: VERDELANDIA
   username: rede
   tags: ['DEBIAN10', 'PRD']
+10.20.0.33:
+  nodename: 10.20.0.33
+  hostname: 10.20.0.33
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEADSIGED
+  osName: GUIRICEMA
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
 10.20.0.35:
   nodename: 10.20.0.35
   hostname: 10.20.0.35
@@ -2378,6 +2428,16 @@
   osName: ILICINEA
   username: rede
   tags: ['CENTOS7', 'PRD']
+10.20.0.51:
+  nodename: 10.20.0.51
+  hostname: 10.20.0.51
+  osVersion: 5.4.17-2136.306.1.3.el8uek.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: SEADSIGED
+  osName: VIEIRAS
+  username: rede
+  tags: ['DEBIAN10', 'PRD']
 10.20.0.6:
   nodename: 10.20.0.6
   hostname: 10.20.0.6
