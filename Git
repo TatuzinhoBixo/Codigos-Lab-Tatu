@@ -1,0 +1,9 @@
+#Comando para iniciar um git, em um pasta, usando o vscode
+#Deve-se criar o repositório e na pasta onde se encontra os arquivos, digitar o seguinte:
+
+git init
+git remote add origing <url do repositório>
+git branch -M main
+git add .
+git commit -m "nome do commit"
+git pus -u origin main
