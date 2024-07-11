@@ -1,0 +1,2 @@
+#comando para saber a resposta de um site  
+wget -O /dev/null -S (site)

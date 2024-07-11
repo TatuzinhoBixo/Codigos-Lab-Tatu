@@ -1,0 +1,87 @@
+#Organização Padrão dos arquivo:
+# Títulos começam com e letras maiúsculas #
+# Segunda linha pode ser a descrição do comando
+# Cada comando tem uma linha de margem 
+# Espaçamento é o conteúdo do arquivo
+# Variáveis são entre parênteses ( )#Comandos uteis do Git
+
+#LIMPEZA DE SWAP
+sudo swapoff -av ; sudo swapon -av
+
+#LS
+#LISTAGEM DE ARQUIVOS ANTIGOS, ORGANIZAR LISTAGEM DE ARQUIVOS LS ORGANIZADOS PELO TAMANHO E PELA DATA
+ls -lhtSr
+
+
+#FIND
+#APAGA OS ARQUIVOS COM O CRITERIO DE TEMPO, BASEADO EM DIAS, NO EXEMPLO ESTÁ APAGANDO ARQUIVOS COM MAIS DE 60 DIAS
+find $PWD -type f -mtime +30 -exec rm {} \;
+
+
+#LOGROTATE
+#TESTE NA CONFIGURAÇÃO DO LOGROTATE
+logrotate -d /etc/logrotate.conf
+
+    -SEGREGADO, Exemplo2
+    sudo logrotate -d /etc/logrotate.d/messages
+
+#CURL
+#INFORMA O CÓDIGO DE RESPOSTA DO SITE WEB
+curl -I -s (SITE-NOME) | head -n 1
+
+
+#SS
+#QUANTIDADE DE CONEXÕES ATIVAS
+ss -t | wc -l
+
+#TAR
+#COMPACTAÇÃO DE ARQUIVOS
+tar -czvf (NOME-DO-ARQUIVO).tar.gz (NOME-DO-ARQUIVO)
+
+#HORARIO LINUX
+sudo dnf install chrony
+sudo systemctl start chronyd
+sudo systemctl enable chronyd
+sudo timedatectl set-timezone America/Manaus
+sudo systemctl restart chronyd
+
+NPT - a.st1.ntp.br
+
+#EDITOR DE TEXTO
+update-alternatives --list editor 
+update-alternatives --set editor /usr/bin/vim.basic
+
+#CHAVE REDE PRODAM
+#COPIAR A CHAVE SSH  PARA UM SERVIDOR REMOTO
+ssh-copy-id -i /home/(USUARIO)/.ssh/id_rsa.pub (USUARIO)@(IP-DO-SERVIDOR)
+#CRIAÇÃO DE USUARIO REDE/COPIA DE CHAVE/PERMISSÃO DE USUARIO PRODAM 
+#CRIAÇÃO DE USUARIO REDE/COPIA DE CHAVE/PERMISSÃO DE USUARIO ROOT
+echo 'rede ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers && useradd --system --shell /bin/bash --create-home --home-dir /var/lib/rede rede && mkdir /var/lib/rede/.ssh/ && cp /root/.ssh/authorized_keys /var/lib/rede/.ssh/ && chown -R rede:rede /var/lib/rede/ 
+
+
+#CUSTOMIZAR O VIM
+/etc/vimrc ou /etc/vim/vimrc
+set number " Numera as linhas
+set linebreak " Quebra a linha sem quebrar a palavra
+set nobackup " Não salva arquivos de backup~
+set wildmode=longest,list " Completa o comando com TAB igual o bash
+set ignorecase " Ignora o case sensitive nas buscas
+set smartcase " Se tiver alguma letra maiúscula, ativa o case sensitive
+set gdefault " Sempre substitui todas as palavras, não só a primeira
+set smartindent " Auto-indenta
+set expandtab " Identa com espaços
+set tabstop=2 " Quantidade de espaços por indentação
+set shiftwidth=2 " Quantidade de espaços da auto-indentação
+set guioptions-=T " Deixa a GUI sem a toolbar
+set autochdir " Vai pro diretório do arquivo aberto
+set cursorline " Mostra linha atual mais clara
+set hlsearch " Termo procurado em destaque
+set pumheight=15 " Máximo de palavras no popup de autocomplete
+set completeopt=menu,preview " Como mostrar as possibilidade de inserção
+set spelllang=pt " Escolhe o dicionário
+set foldenable " Habilita agrupamento de blocos
+set foldcolumn=1 " Exibie coluna com + e - para agrupamentos
+set foldmethod=marker " Define agrupamento por marcas
+set foldmarker={,} " Define marcas de agrupamento como { e }
+set foldlevel=9999 " Inicia com todos os agrupamentos abertos
+

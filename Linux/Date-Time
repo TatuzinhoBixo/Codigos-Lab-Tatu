@@ -1,0 +1,17 @@
+#Organização Padrão dos arquivo:
+# Títulos começam com e letras maiúsculas #
+# Segunda linha pode ser a descrição do comando
+# Cada comando tem uma linha de margem 
+# Espaçamento é o conteúdo do arquivo
+# Variáveis são entre parênteses ( )
+
+#HORARIO LINUX - Alterar o gerenciador de pacotes
+sudo dnf install chrony
+
+sudo systemctl start chronyd
+
+sudo systemctl enable chronyd
+
+sudo timedatectl set-timezone America/Manaus
+
+sudo systemctl restart chronyd

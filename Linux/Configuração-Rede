@@ -1,0 +1,67 @@
+#Organização Padrão dos arquivo:
+# Títulos começam com #
+# Segunda linha pode ser a descrição do comando
+# Cada comando tem uma linha de margem
+# Espaçamento é o conteúdo do arquivo
+# Variáveis são entre parênteses ( )
+
+#INSTALAR O PING NO UBUNTU
+sudo apt install inetutils-ping htop
+
+#Configurar a placa de rede Debian, IP fixo
+sudo vi /etc/network/interfaces
+    auto (interface_name)
+    iface (interface_name> inet stati)
+    address (desired_ip_address)
+    netmask (netmask_address)
+    gateway (default_gateway_address)
+
+sudo systemctl restart networking
+
+#Configurar um dns fixo
+sudo vi /etc/systemd/resolved.conf
+    [Resolve]
+    DNS=8.8.8.8 1.1.1.1
+
+##Configurar a placa de rede Debian, IP via DHCP
+sudo vi /etc/network/interfaces
+    auto (interface_name)
+    iface (interface_name) inet dhcp
+
+sudo systemctl restart networking
+
+#NMCLI
+#LISTA AS CONEXÕES DE REDE/ADICIONA REDE/ADICIONA DNS/DELETA REDE
+nmcli con show
+nmcli dev show
+nmcli con mod "NOME-DA-CONEXÃO" ipv4.method auto 
+nmcli con mod "NOME-DA-CONEXÃO" ifname "NOME-DA-INTERFACE" type ethernet ip4 (IP-DA-INTERFACE)/(MASCARA) gw4 (IP-DO-GATEWAY) ipv4.dns (IP-DO-DNS)
+nmcli con mod "NOME-DA-CONEXÃO" ipv4.dns (IP-DO-DNS)
+nmcli connection delete id (NOME-DA-CONEXÃO)
+nmcli connection down (NOME-DA-CONEXÃO)
+nmcli connection up (NOME-DA-CONEXÃO)
+
+#MODELOS DE CONFIGURAÇÃO DE REDE UBUNTU
+#CONFIGURAÇÃO VIA DHCP
+network:
+    version: 2
+    renderer: networkd
+    ethernets:
+        ens33:   # Substitua pelo nome da sua interface de rede
+            dhcp4: true
+
+#CONFIGURAÇÃO VIA IP FIXO UBUNTU
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    eth0:
+      dhcp4: false
+      addresses: [192.168.1.85/24]
+      gateway4: 192.168.1.1
+      nameservers:
+        addresses: [192.168.1.1]
+      routes:
+        - to: 0.0.0.0/0
+          via: 192.168.1.1
+  version: 2
+

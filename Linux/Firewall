@@ -1,0 +1,16 @@
+#Comandos firewall-d 
+
+firewall-cmd --get-default-zone
+firewall-cmd --get-active-zones
+firewall-cmd --list-all
+firewall-cmd --get-zones
+firewall-cmd --zone=zone --list-all
+firewall-cmd --get-services
+firewall-cmd --zone=home --add-service=(nome-serviço)
+firewall-cmd --permanent --new-zone=(nome-zona)
+
+#comandos iptables
+iptables -nL #mostra as tabelas padrao
+iptables -nat -nL #mostra a tabela do nat
+iptables -t filter -I INPUT -p tcp --dport (porta) -j ACCEPT / iptables-save -t filter -f /etc/sysconfig/iptables
+iptables -D INPUT -p (porta) -j ACCEPT
