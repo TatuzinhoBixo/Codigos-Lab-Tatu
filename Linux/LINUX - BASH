@@ -55,6 +55,7 @@ update-alternatives --set editor /usr/bin/vim.basic
 #COPIAR A CHAVE SSH  PARA UM SERVIDOR REMOTO
 ssh-copy-id -i /home/(USUARIO)/.ssh/id_rsa.pub (USUARIO)@(IP-DO-SERVIDOR)
 #CRIAÇÃO DE USUARIO REDE/COPIA DE CHAVE/PERMISSÃO DE USUARIO PRODAM 
+echo 'rede ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers && useradd --system --shell /bin/bash --create-home --home-dir /var/lib/rede rede && mkdir /var/lib/rede/.ssh/ && cp /home/prodam/.ssh/authorized_keys /var/lib/rede/.ssh/ && chown -R rede:rede /var/lib/rede/ 
 #CRIAÇÃO DE USUARIO REDE/COPIA DE CHAVE/PERMISSÃO DE USUARIO ROOT
 echo 'rede ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers && useradd --system --shell /bin/bash --create-home --home-dir /var/lib/rede rede && mkdir /var/lib/rede/.ssh/ && cp /root/.ssh/authorized_keys /var/lib/rede/.ssh/ && chown -R rede:rede /var/lib/rede/ 
 
