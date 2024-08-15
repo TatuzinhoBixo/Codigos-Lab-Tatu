@@ -19,7 +19,6 @@ server SERVIDORNTP ibusrt
 systemctl restart chronyd
 
 
-
 #Instalação ntpd
 apt install ntp ntpdate ntp-doc
 

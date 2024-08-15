@@ -1,0 +1,31 @@
+# Organização Padrão dos arquivo:
+# Títulos são em letras maiúsculas e se iniciam com #
+# Os subtitulos são as descrições do comando/função iniciam com um -
+# Cada comando tem uma linha de margem e uma margem de espaçamento
+# Caso o comando abra e edite um arquivo o contúdo deve ter um espaçamento
+# Cada título tem uma linha de margem
+# Variáveis são entre parênteses ( )
+#PARTES COMENTÁRIOS E OPCIONAIS # dentro da margem do título
+
+-- proxy_pass nginx com ssl
+    upstream portainer {
+    server 10.20.0.99:9443;
+    }
+    server {
+        listen 443 ssl;
+        server_name portainer-sites-hom.prodam.am.gov.br;
+
+        ssl_certificate /etc/nginx/ssl/prodam/prodam.pem;
+        ssl_certificate_key /etc/nginx/ssl/prodam/private.key;
+
+        location / {
+            proxy_pass https://portainer;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+        }
+
+            access_log /var/log/nginx/portainer-sites.log combined;
+            error_log /var/log/nginx/portainer-sites-error.log error;
+    }

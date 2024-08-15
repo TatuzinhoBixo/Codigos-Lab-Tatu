@@ -1,7 +1,0 @@
-#Comando para montar o nfs com partição do NFS
-mount -t nfs4 10.20.3.110:/upload /var/www/cetam-portal-candidato-api/uploads/
-comando / tipo de particao / ipnfs:pasta /localdemontagem
-
-#serviço do nfs
-systemctl status nfs-common 
-

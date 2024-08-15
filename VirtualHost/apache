@@ -1,0 +1,74 @@
+# Organização Padrão dos arquivo:
+# Títulos são em letras maiúsculas e se iniciam com #
+# Os subtitulos são as descrições do comando/função iniciam com um -
+# Cada comando tem uma linha de margem e uma margem de espaçamento
+# Caso o comando abra e edite um arquivo o contúdo deve ter um espaçamento
+# Cada título tem uma linha de margem
+# Variáveis são entre parênteses ( )
+#PARTES COMENTÁRIOS E OPCIONAIS # dentro da margem do título
+
+-- PROXY_PASS APACHE SEM ssl
+    <VirtualHost *:80>
+            ServerName api-transito-radar.homologacao.am.gov.br
+
+            ServerAdmin webmaster@localhost
+            DocumentRoot "/var/www/api-transito-radar"
+
+            LogLevel warn
+
+            ErrorLog ${APACHE_LOG_DIR}/error-api-transito-radar.log
+            CustomLog ${APACHE_LOG_DIR}/access-api-transito-radar.log combined
+
+            ProxyRequests Off
+            ProxyTimeout 500
+            ProxyStatus On
+            ProxyPreserveHost On
+
+            <Proxy *>
+                    AddDefaultCharset Off
+                    Order allow,deny
+                    Allow from all  
+            </Proxy>
+
+            ProxyPass / http://10.20.0.167:8109/
+            ProxyPassReverse / http://10.20.0.167:8109/
+
+            ServerSignature off
+
+    </VirtualHost>
+
+-- proxy_pass apache com ssl
+    <VirtualHost *:443>
+    ServerName  portainer-crucilandia.prodam.am.gov.br
+
+    ProxyRequests Off
+    ProxyStatus On
+    ProxyPreserveHost On
+
+    <Proxy *>
+            AddDefaultCharset Off
+            Order allow,deny
+            Allow from ALL
+    </Proxy>
+
+    SSLEngine On
+    SSLProxyEngine On
+    SSLCertificateFile              /etc/apache2/ssl/prodam/prodam.crt
+    SSLCertificateKeyFile           /etc/apache2/ssl/prodam/private.key
+    SSLCertificateChainFile         /etc/apache2/ssl/prodam/inter.crt
+
+    SSLProxyVerify none
+    SSLProxyCheckPeerCN off
+    SSLProxyCheckPeerName off
+    SSLProxyCheckPeerExpire off
+
+
+    ProxyPass / https://10.20.0.167:9443/
+    ProxyPassReverse / https://10.20.0.167:9443/
+
+    ErrorLog /var/log/apache2/portainer-educacao-error.log
+    LogLevel error
+    CustomLog /var/log/apache2/portainer-educacao-access.log vhost_combined
+
+    ServerSignature Off
+    </VirtualHost>
