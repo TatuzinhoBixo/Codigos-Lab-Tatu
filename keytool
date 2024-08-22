@@ -1,0 +1,8 @@
+#Comandos keytool para o sisp
+#Usar no servidor de ip 10.20.1.166 e 
+
+/usr/lib/jvm/java-6-sun-1.6.0.26/bin/keytool -v -import -noprompt -trustcacerts -alias "PRODAM-NEW" -file /var/lib/rede/prodam2024/prodam/certificado28998/output.cer -keystore ../jre/lib/security/cacerts -storepass changeit
+
+#Usar no servidor de ip 10.20.1.109
+
+./keytool -v -import -noprompt -trustcacerts -alias "PRODAM-2024-1" -file /var/lib/rede/prodam2024/prodam.crt -keystore /opt/jdk1.6.0_30/jre/lib/security/cacerts -storepass changeit
